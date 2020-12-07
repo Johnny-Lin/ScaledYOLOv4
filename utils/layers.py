@@ -5,7 +5,8 @@ from utils.general import *
 import torch
 from torch import nn
 
-from mish_cuda import MishCuda as Mish
+#from mish_cuda import MishCuda as Mish
+from models.mish_py import Mish
 
 
 def make_divisible(v, divisor):
